@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MQTT Halloween</string>
+
+    <string name="publish">Publish</string>
+
+    <string name="connect">Connect</string>
+
+    <string name="disconnect">Disconnect</string>
+
+    <string name="server">Server</string>
+
+    <string name="parameters">Parameters</string>
+
+    <string name="time">Time (%1$s seconds)</string>
+
+    <string name="server_hint">tcp://broker.hivemq.com:1883</string>
+
+    <string name="topic">Topic</string>
+
+    <string name="topic_hint">Eg: foo/bar</string>
+
+    <string name="connected">Connected</string>
+    <string name="not_connected">Not Connected</string>
+</resources>

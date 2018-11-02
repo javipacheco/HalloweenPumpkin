@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CardRoot">
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <style name="CardConnectedMessage">
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="CardContent">
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="CardTitle" parent="TextAppearance.AppCompat.Large">
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+
+    <style name="CardSubtitle" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="CardAction" parent="@style/Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

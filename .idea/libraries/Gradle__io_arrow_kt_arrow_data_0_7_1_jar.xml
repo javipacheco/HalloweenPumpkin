@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.arrow-kt:arrow-data:0.7.1@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-data/0.7.1/d7f1f04d7a65c2a4f6a52c9d525e3a6cee1ef902/arrow-data-0.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-data/0.7.1/2fa3a1fc43ab58df0f31226f9a97dee4ab8e4e82/arrow-data-0.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
