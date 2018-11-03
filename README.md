@@ -1,5 +1,7 @@
 # Halloween Pumpkin
 
+[Post in Spanish](https://medium.com/@javipacheco/mi-calabaza-de-halloween-que-usa-raspberry-pi-y-android-d1195366bf76)
+
 Inspired on [this project](https://www.raspberrypi.org/blog/halloween-pumpkin-light-effect-tutorial/)
 
 <img src="https://github.com/javipacheco/HalloweenPumpkin/blob/master/halloween.jpg" width="200"/>
