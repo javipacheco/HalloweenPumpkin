@@ -2,7 +2,9 @@
 
 Inspired on [this project](https://www.raspberrypi.org/blog/halloween-pumpkin-light-effect-tutorial/)
 
-This small project uses MQTT to communicate an Android application with a Raspberry PI, which has 8 LEDs that will light up to illuminate a pumpkin.
+<img src="https://github.com/javipacheco/HalloweenPumpkin/blob/master/halloween.jpg" width="200"/>
+
+This small project uses MQTT to communicate an Android application with a Raspberry PI, which has 8 LEDs that will light up to illuminate a pumpkin. I printed this pumpkin using [this Thingiverse objet](https://www.thingiverse.com/thing:3135934)
 
 ## Prerequisites
 
