@@ -1,6 +1,27 @@
 # Halloween Pumpkin
 
-Halloween project using Raspberry PI, MQTT, Android and Python
+This small project uses MQTT to communicate an Android application with a Raspberry PI, which has 8 LEDs that will light up to illuminate a pumpkin.
+
+## Prerequisites
+
+* Raspberry must to have installed **mosquitto**, a broker widely used in IoT and Raspberry project
+* I used [Blinkt](https://shop.pimoroni.com/products/blinkt), a Pimoroni HAT with 8 LEDs very easy to use thanks to its Python library.
+
+## Android App
+
+This application connects to the MQTT server installed on the Raspberry PI and sends a *JSON* with the time it wants the pumpkin to be turned on to the topic **halloween**
+
+You should know the IP of the Raspberry PI *(for example: "tpc://192.168.2.48:1883")*. *1883* is the default port used by MQTT
+
+You can use the source code of the application or install it directly from the APK
+
+## Python App on Raspberry PI
+
+The Python application subscribes to the topic **halloween** waiting for a message from the Android application. When the message arrives it will extract the JSON time and turn on the pumpkin
+
+To launch the app simply copy the Python file into your Raspberry and launch it
+
+    python halloween.py
 
 # License
 
