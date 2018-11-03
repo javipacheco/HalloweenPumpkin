@@ -9,11 +9,13 @@ This small project uses MQTT to communicate an Android application with a Raspbe
 
 ## Android App
 
+<img src="https://github.com/javipacheco/HalloweenPumpkin/blob/master/halloween-android.png" width="200"/>
+
 This application connects to the MQTT server installed on the Raspberry PI and sends a *JSON* with the time it wants the pumpkin to be turned on to the topic **halloween**
 
 You should know the IP of the Raspberry PI *(for example: "tpc://192.168.2.48:1883")*. *1883* is the default port used by MQTT
 
-You can use the source code of the application or install it directly from the APK
+You can use the source code of the application or [install it directly from the APK](https://github.com/javipacheco/HalloweenPumpkin/releases/tag/v1)
 
 ## Python App on Raspberry PI
 
